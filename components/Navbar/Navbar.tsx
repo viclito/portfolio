@@ -33,7 +33,7 @@ const Navbar = () => {
       };
   return (
     <div >
-        <div className='flex items-center justify-between max-w-[1200px] m-auto py-8 relative'>
+        <div className='flex items-center justify-between max-w-[1200px] m-auto py-8 px-4 relative'>
             <div className="flex gap-6 md:hidden">
                 {/* <Link href="/" className=" font-medium text-base relative group" passHref><span className={`absolute h-[1px]  left-0 -bottom-0.5 bg-black inline-block group-hover:w-full transition-[width] ease duration-300 ${router.asPath=== href ? 'w-full':'w-0'}`}></span> Home</Link>
                 <Link href="/about" className=' font-medium text-base relative group'><span className={`absolute h-[1px]  left-0 -bottom-0.5 bg-black inline-block group-hover:w-full transition-[width] ease duration-300 ${router.asPath=== href ? 'w-full':'w-0'}`}></span> About</Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
 
               {/* for mobile screen */}
 
-              <div className=' flex-col pl-20 justify-center items-center md:flex hidden' onClick={openFunc}>
+              <div className=' flex-col pl-6 justify-center items-center md:flex hidden' onClick={openFunc}>
                 <span className={`h-[2px] w-6 bg-black transition-all block  rounded-lg ${!open ? 'translate-y-2.5':'rotate-45 translate-y-1'}`}></span>
                 <span className={`h-[2px] w-6 bg-black transition-all block my-0.5  rounded-lg ${!open ? ' opacity-100':'opacity-0'}`}></span>
                 <span className={`h-[2px] w-6 bg-black transition-all block  rounded-lg ${!open ? '-translate-y-2.5':'-rotate-45 -translate-y-1'}`}></span>
