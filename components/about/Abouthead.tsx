@@ -23,9 +23,10 @@ const AnimateNumber: React.FC<AnimateNumberProps>=({value})=>{
 
     useEffect(()=>{
         spring.on("change" , (latest)=>{
-            if(ref.current && latest.toFixed(0) <= value){
-                ref.current.textContent = latest.toFixed(0)
+            if (ref.current && latest.toFixed(0) <= value) {
+                (ref.current as HTMLElement).textContent = latest.toFixed(0);
             }
+              
         })
     },[spring, value])
     
