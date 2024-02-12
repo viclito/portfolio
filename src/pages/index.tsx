@@ -5,6 +5,7 @@ import { motion} from 'framer-motion'
 import Link from "next/link";
 import arrow from "../../public/image/box.png"
 import circle from "../../public/image/circle.png"
+import SkillLogos from "../../components/about/skills/SkillLogos";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             className="relative w-[70%] pt-[30px] top-[300px] m-auto"
             >
             <Image src={profile} alt="" className="w-full h-auto rounded "/>
+            <p className="text-center text-sm font-bold">BERGIN YSA VICLITO</p>
           </motion.div>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 md:w-[100%] w-[60%] pb-12">
@@ -51,7 +53,7 @@ export default function Home() {
 
       </div>
 
-      <div className="fixed md:!top-2 md:!right-2 md:left-auto left-4 bottom-4 top-auto right-auto">
+      <div className="fixed md:!top-2 md:!right-2 md:left-auto left-4 bottom-4 top-auto right-auto sm:hidden">
         <div className="relative overflow-hidden flex items-center justify-center">
           <Image src={circle} alt="" className="md:w-32 md:h-32  w-52 h-52 animate-spin-slow"/>
           <Link href="mailto:berglin1998@gmail.com"
@@ -62,6 +64,10 @@ export default function Home() {
         </div>
         
       </div>
+      <div className="max-w-[1200px] mx-auto pb-14 px-4">
+        <SkillLogos/>
+      </div>
+      
     </main>
   )
 }
