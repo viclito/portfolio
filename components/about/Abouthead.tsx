@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import berglin from '../../public/image/Berglin.jpeg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import { once } from 'events';
 
 interface AnimateNumberProps {
     value: number;

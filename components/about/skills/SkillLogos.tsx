@@ -16,11 +16,11 @@ const SkillLogos = () => {
 
     <>
     <div className='py-8'>
-        <h1 className='font-bold text-4xl text-center'>Skill set</h1>
+        <h1 className='font-bold py-12 text-8xl lg:text-6xl md:text-3xl text-center'>Skill set</h1>
     </div>
     <div className= {styles.skills}>
 
-        <div className={styles.slider}>
+        <div className={`xs:w-[100%] ${styles.slider}`}>
             <div className={styles.slide_track}>
                 <div className={styles.slides}>
                     <Image src={logo1} alt='' />
