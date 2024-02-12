@@ -19,8 +19,8 @@ const Details:React.FC<DetailsProps> = ({works , company , dates , place , workD
         <li ref={ref} className='flex flex-col w-[70%] sm:w-[100%] mx-auto gap-3'>
             <LiIcon reference = {ref}/>
             <h2 className='text-lg font-semibold'>{works}<a href={links} className='font-medium text-primary'>@{company}</a></h2>
-            <h3 className='text-sm font-medium'>{dates} | {place}</h3>
-            <h3 className='text-base font-medium'>{workDone}</h3>
+            <h3 className='text-sm font-medium sm:text-xs text-slate-500'>{dates} | {place}</h3>
+            <h3 className='text-base font-medium sm:text-sm'>{workDone}</h3>
 
         </li>
     )
