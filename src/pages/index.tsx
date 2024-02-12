@@ -13,7 +13,7 @@ export default function Home() {
       className=""
     >
       
-      <div className="max-w-[1300px] min-h-screen flex justify-between m-auto items-center px-12 md:flex-col flex-row gap-10">
+      <div className="max-w-[1300px] min-h-screen flex justify-between m-auto items-center px-8 md:flex-col flex-row gap-10">
         <div className="md:w-[100%] w-[40%] ">
           <motion.div initial={{ top:0 , scale:.99}}
             animate={{top:0 , scale:1}} 

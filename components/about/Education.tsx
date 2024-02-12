@@ -16,11 +16,20 @@ const Details:React.FC<DetailsProps> = ({works , company , dates , place , workD
     const ref = useRef(null)
 
     return(
-        <li ref={ref} className='flex flex-col w-[70%] sm:w-[100%] mx-auto gap-3'>
+        <li ref={ref} className='flex flex-col w-[70%] sm:w-[100%] mx-auto '>
             <LiIcon reference = {ref}/>
-            <h2 className='text-lg font-semibold'>{works}<a href={links} className='font-medium text-primary'>@{company}</a></h2>
-            <h3 className='text-sm font-medium sm:text-xs text-slate-500'>{dates} | {place}</h3>
-            <h3 className='text-base font-medium sm:text-sm'>{workDone}</h3>
+            <motion.div
+                initial={{y:70}}
+                whileInView={{y:0}}
+                transition={{duration:0.5 , type:"spring"}}
+
+                className='flex gap-3 flex-col'
+            >
+                <h2 className='text-lg font-semibold'>{works}<a href={links} target='_blank' className='font-medium text-primary'>@{company}</a></h2>
+                <h3 className='text-sm font-medium sm:text-xs text-slate-500'>{dates} | {place}</h3>
+                <h3 className='text-base font-medium sm:text-sm'>{workDone}</h3>
+            </motion.div>
+            
 
         </li>
     )
