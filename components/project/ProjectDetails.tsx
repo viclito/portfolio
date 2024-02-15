@@ -57,10 +57,10 @@ const ProjectDetails = () => {
                         <h2 className='text-primary text-xl font-semibold pt-3 xs:text-lg'>Personal Projects</h2>
                         <h2 className='text-3xl font-bold xs:text-xl'>WedUnion</h2>
                         <div className='flex gap-3 items-center justify-between'>
-                            <a href="https://github.com/viclito/20Million.git" target='_blank'>
+                            <a href="https://github.com/viclito/weddingpage" target='_blank'>
                                 <Image src={github} alt='' className='w-7 h-auto'/>
                             </a>
-                            <a href="https://20million.in/" className='px-3 py-2 bg-dark text-light rounded-md' target='_blank'>
+                            <a href="https://wedunionin.pages.dev/" className='px-3 py-2 bg-dark text-light rounded-md' target='_blank'>
                                 Visit
                             </a>
                         </div>
@@ -75,10 +75,10 @@ const ProjectDetails = () => {
                         <h2 className='text-primary text-xl font-semibold pt-3 xs:text-lg'>Personal Projects</h2>
                         <h2 className='text-3xl font-bold xs:text-xl'>Mookuthi</h2>
                         <div className='flex gap-3 items-center justify-between'>
-                            <a href="https://github.com/viclito/20Million.git" target='_blank'>
+                            <a href="https://github.com/viclito/Jewels" target='_blank'>
                                 <Image src={github} alt='' className='w-7 h-auto'/>
                             </a>
-                            <a href="https://20million.in/" className='px-3 py-2 bg-dark text-light rounded-md' target='_blank'>
+                            <a href="https://jewels-nine.vercel.app/" className='px-3 py-2 bg-dark text-light rounded-md' target='_blank'>
                                 Visit
                             </a>
                         </div>
@@ -104,10 +104,10 @@ const ProjectDetails = () => {
                          A seamless union of technology and artistry, it captures the essence of their vision, transforming ideas into captivating digital landscapes.
                         </h2>
                         <div className='flex gap-3 items-center'>
-                            <a href="https://github.com/viclito/20Million.git" target='_blank'>
+                            <a href="https://github.com/viclito/Guruvel" target='_blank'>
                                 <Image src={github} alt='' className='w-7 h-auto'/>
                             </a>
-                            <a href="https://20million.in/" className='px-3 py-2 bg-dark text-light rounded-md' target='_blank'>
+                            <a href="https://guruvel.vercel.app/" className='px-3 py-2 bg-dark text-light rounded-md' target='_blank'>
                                 Visit Project
                             </a>
                         </div>   
