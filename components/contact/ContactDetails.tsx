@@ -96,7 +96,7 @@ const ContactDetails = () => {
           setName('')
           setEmail('')
           setMessage('')
-          setSuccessMessage('Our Team will Shortly Contact You');
+          setSuccessMessage('Soon I will getback to u ');
           setError('')
           console.log('Form submitted successfully!')
 
@@ -126,22 +126,17 @@ const ContactDetails = () => {
                         </div>
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-base font-bold'>Ping me on</h2>
-                            <p className='text-sm font-semibold max-w-[400px]'> <a href="tel:919840643853">+91-9840643853</a></p>
+                            <p className='text-sm font-semibold max-w-[400px]'> <a href="tel:9042127115">+91-9042127115</a></p>
                         </div>
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-base font-bold'>Mail Me at</h2>
                             <div className='text-sm font-semibold max-w-[400px]'>
-                                <a href="mailto:skycareexims@gmail.com" target='_blank' className='flex items-center gap-2'>
+                                <a href="mailto:berglin1998@gmail.com" target='_blank' className='flex items-center gap-2'>
                                     <Image src={gmail} alt='' className='w-6 h-6'/>
-                                    <span>skycareexims@gmail.com</span>
+                                    <span>berglin1998@gmail.com</span>
                                 </a>
                             </div>
-                            <div className='text-sm font-semibold max-w-[400px]'>
-                                <a href="mailto:vinothsklchn@gmail.com" target='_blank' className='flex items-center gap-2'>
-                                    <Image src={gmail} alt='' className='w-6 h-6'/>
-                                    <span>vinothsklchn@gmail.com</span>
-                                </a>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -157,7 +152,7 @@ const ContactDetails = () => {
                             
                             <Stack spacing={2}>
 
-                                <FormLabel>Write Your Query , We will Contact you Soon</FormLabel>
+                                <FormLabel>Send me a message</FormLabel>
 
                                 <TextField label='Name' size='small' helperText=''
                                     value={name}
