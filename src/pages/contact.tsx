@@ -3,9 +3,9 @@ import ContactDetails from '../../components/contact/ContactDetails'
 
 const Contact = () => {
   return (
-    <div>
+    <>
     <ContactDetails/>
-    </div>
+    </>
   )
 }
 

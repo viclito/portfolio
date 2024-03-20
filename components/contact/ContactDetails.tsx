@@ -114,8 +114,8 @@ const ContactDetails = () => {
         <div className='w-screen relative'>
             <Image src={contactpng} alt='' className='fixed w-screen h-screen z-0 opacity-[.05]'/>
             <div className='max-w-[1400px] mx-auto py-10 px-6 relative z-10'>
-                <h1 className='font-bold text-4xl lg:text-3xl md:text-2xl py-4 text-center'>Feel Free To <span className='text-primary'>Contact Us</span></h1>
-                <p className='max-w-[900px] mx-auto text-primary text-sm font-semibold text-center'>If you have any questions about what we offer for consumers or for business, you can always email us or call us via the below details. We’ll reply within 24 hours.</p>
+                <h1 className='font-bold text-4xl lg:text-3xl md:text-2xl py-4 text-center'>Feel Free To <span className='text-primary'>Contact Me</span></h1>
+                
 
                 <div className='flex max-w-[1000px] mx-auto gap-4 items-center pt-20 md:flex-col md:gap-10'>
                     {/* left */}
@@ -152,7 +152,7 @@ const ContactDetails = () => {
                             
                             <Stack spacing={2}>
 
-                                <FormLabel>Kindly send me a message at your earliest convenience.</FormLabel>
+                                <FormLabel sx={{textAlign:'center'}}>Kindly send me a message at your earliest convenience.</FormLabel>
 
                                 <TextField label='Name' size='small' helperText=''
                                     value={name}
