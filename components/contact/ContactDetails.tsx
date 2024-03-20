@@ -122,7 +122,7 @@ const ContactDetails = () => {
                     <div className='w-[50%] flex flex-col gap-4 md:w-[100%]'>
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-base font-bold'>My hometown</h2>
-                            <p className='text-sm font-semibold max-w-[400px]'>Old No.79, New No.38, 2nd Floor, Angappa Naicken Street, Mannady, Chennai - 600 001.</p>
+                            <p className='text-sm font-semibold max-w-[400px]'>Near MalaiKovil Arch . Chitharal (P.O) , kanyakumari , TamilNadu .</p>
                         </div>
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-base font-bold'>Ping me on</h2>
@@ -152,7 +152,7 @@ const ContactDetails = () => {
                             
                             <Stack spacing={2}>
 
-                                <FormLabel>Send me a message</FormLabel>
+                                <FormLabel>Kindly send me a message at your earliest convenience.</FormLabel>
 
                                 <TextField label='Name' size='small' helperText=''
                                     value={name}
@@ -189,7 +189,7 @@ const ContactDetails = () => {
                                     value={message}
                                     onChange={handleMessageChange}
                                   />
-                                  <Button sx={{display:'inline-block' , color:' #f51b21'}} onClick={handleSubmit}>Submit</Button>
+                                  <Button sx={{display:'inline-block' }} onClick={handleSubmit}>Submit</Button>
                             </Stack>
                             
                         </FormControl>
