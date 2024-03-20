@@ -38,7 +38,7 @@ export default function Home() {
             as I continually strive to innovate and elevate user experiences.
           </p>
           <div className="flex gap-4 self-start md:w-[100%] w-[90%] ml-8 ">
-            <Link href="/BerglinViclito.pdf" target={"_blank"} download={true} 
+            <Link href="/Berglin.pdf" target={"_blank"} download={true} 
             className="px-4 py-2 bg-black text-white rounded-lg font-medium hover:bg-transparent
              hover:text-black border-solid border-2 hover:border-black flex gap-2">
               Resume
